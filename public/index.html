@@ -9,36 +9,41 @@
 </head>
 <body>
     <div class="container-full bg-white-900 mx-auto shadow-lg">
-        <div class="container mx-auto p-3 grid grid-cols-2 lg:grid-cols-3">
-            <div class="nav-brand flex-initial">
+        <nav class="container mx-auto p-3 grid grid-cols-2 lg:grid-cols-3">
+            <div class="nav-brand flex-initial justify-self-start self-start lg:justify-self-start">
                 <a href="/" >
                     <img src="img/logo.svg" alt="" class="p-2">
                 </a>
             </div>
+            <div class="mobile-button lg:hidden inline-flex justify-self-center self-center w-7 h-7">
+                <img src="img/menu.png" alt="Menu" class="">
+            </div>
             <div class="nav-item hidden lg:block self-center">
-                <ul class="flex justify-between flex-start grid- ">
-                    <li>
-                        <a href="#" class="p-2">Product</a>
+                <ul class="flex justify-between flex-start">
+                    <li class="flex-initial">
+                        <a href="#" class="p-2 transition rounded-md hover:transition hover:text-white hover:bg-indigo-900">Product</a>
                     </li>
-                    <li>
-                        <a href="#" class="p-2">About Us</a>
+                    <li class="flex-initial">
+                        <a href="#" class="p-2 transition rounded-md hover:transition hover:text-white hover:bg-indigo-900">About Us</a>
                     </li>
-                    <li>
-                        <a href="#" class="p-2">Events</a>
+                    <li class="flex-initial">
+                        <a href="#" class="p-2 transition rounded-md hover:transition hover:text-white hover:bg-indigo-900">Events</a>
                     </li>
-                    <li>
-                        <a href="#" class="p-2">Blogs</a>
+                    <li class="flex-initial">
+                        <a href="#" class="p-2 transition rounded-md hover:transition hover:text-white hover:bg-indigo-900">Blogs</a>
                     </li>
-                    <li>
-                        <a href="#" class="p-2">Login</a>
+                    <li class="flex-initial">
+                        <a href="#" class="p-2 transition rounded-md hover:transition hover:text-white hover:bg-indigo-900">Login</a>
                     </li>
                 </ul>
             </div>
-            <div class="btn flex justify-end ">
-                <button class="demo-button text-indigo-400 py-2 px-6 border-2 rounded-2xl cursor-pointer transition hover:border-indigo-900 hover:transition hover:text-white hover:bg-indigo-900">Request Demo</button>
+            <div class="btn block lg:justify-self-end self-center lg:justify-items-end lg:flex lg:relative absolute left-0 bottom-0 w-full lg:w-max">
+                <button class="demo-button text-indigo-400 py-2 px-1 md:px-6 font-xs md:font-base border-2 rounded-2xl cursor-pointer  hover:border-indigo-900 transition hover:transition hover:text-white hover:bg-indigo-900 w-full shadow-sm lg:shadow-none">Request Demo</button>
             </div>
-        </div>
+        </nav>
         
     </div>
+
+
 </body>
 </html>

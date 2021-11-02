@@ -6424,6 +6424,10 @@ video {
   height: 100vh;
 }
 
+.h-fullpx {
+  height: 41rem;
+}
+
 .max-h-0 {
   max-height: 0px;
 }
@@ -6582,6 +6586,10 @@ video {
 
 .min-h-screen {
   min-height: 100vh;
+}
+
+.min-h-pxMin {
+  min-height: 41rem;
 }
 
 .w-0 {
@@ -6966,6 +6974,10 @@ video {
 
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.flex-100 {
+  flex: 0 0 100%;
 }
 
 .flex-auto {
@@ -17789,6 +17801,10 @@ video {
 
 .bg-gradient-to-tl {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.bg-hero-pattern {
+  background-image: url('img/hero.png');
 }
 
 .from-transparent {
@@ -38069,6 +38085,10 @@ video {
     height: 100vh;
   }
 
+  .sm\:h-fullpx {
+    height: 41rem;
+  }
+
   .sm\:max-h-0 {
     max-height: 0px;
   }
@@ -38227,6 +38247,10 @@ video {
 
   .sm\:min-h-screen {
     min-height: 100vh;
+  }
+
+  .sm\:min-h-pxMin {
+    min-height: 41rem;
   }
 
   .sm\:w-0 {
@@ -38611,6 +38635,10 @@ video {
 
   .sm\:flex-1 {
     flex: 1 1 0%;
+  }
+
+  .sm\:flex-100 {
+    flex: 0 0 100%;
   }
 
   .sm\:flex-auto {
@@ -49368,6 +49396,10 @@ video {
 
   .sm\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-hero-pattern {
+    background-image: url('img/hero.png');
   }
 
   .sm\:from-transparent {
@@ -69296,6 +69328,10 @@ video {
     height: 100vh;
   }
 
+  .md\:h-fullpx {
+    height: 41rem;
+  }
+
   .md\:max-h-0 {
     max-height: 0px;
   }
@@ -69454,6 +69490,10 @@ video {
 
   .md\:min-h-screen {
     min-height: 100vh;
+  }
+
+  .md\:min-h-pxMin {
+    min-height: 41rem;
   }
 
   .md\:w-0 {
@@ -69838,6 +69878,10 @@ video {
 
   .md\:flex-1 {
     flex: 1 1 0%;
+  }
+
+  .md\:flex-100 {
+    flex: 0 0 100%;
   }
 
   .md\:flex-auto {
@@ -80595,6 +80639,10 @@ video {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-hero-pattern {
+    background-image: url('img/hero.png');
   }
 
   .md\:from-transparent {
@@ -100523,6 +100571,10 @@ video {
     height: 100vh;
   }
 
+  .lg\:h-fullpx {
+    height: 41rem;
+  }
+
   .lg\:max-h-0 {
     max-height: 0px;
   }
@@ -100681,6 +100733,10 @@ video {
 
   .lg\:min-h-screen {
     min-height: 100vh;
+  }
+
+  .lg\:min-h-pxMin {
+    min-height: 41rem;
   }
 
   .lg\:w-0 {
@@ -101065,6 +101121,10 @@ video {
 
   .lg\:flex-1 {
     flex: 1 1 0%;
+  }
+
+  .lg\:flex-100 {
+    flex: 0 0 100%;
   }
 
   .lg\:flex-auto {
@@ -111822,6 +111882,10 @@ video {
 
   .lg\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-hero-pattern {
+    background-image: url('img/hero.png');
   }
 
   .lg\:from-transparent {
@@ -131750,6 +131814,10 @@ video {
     height: 100vh;
   }
 
+  .xl\:h-fullpx {
+    height: 41rem;
+  }
+
   .xl\:max-h-0 {
     max-height: 0px;
   }
@@ -131908,6 +131976,10 @@ video {
 
   .xl\:min-h-screen {
     min-height: 100vh;
+  }
+
+  .xl\:min-h-pxMin {
+    min-height: 41rem;
   }
 
   .xl\:w-0 {
@@ -132292,6 +132364,10 @@ video {
 
   .xl\:flex-1 {
     flex: 1 1 0%;
+  }
+
+  .xl\:flex-100 {
+    flex: 0 0 100%;
   }
 
   .xl\:flex-auto {
@@ -143049,6 +143125,10 @@ video {
 
   .xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .xl\:bg-hero-pattern {
+    background-image: url('img/hero.png');
   }
 
   .xl\:from-transparent {
@@ -162977,6 +163057,10 @@ video {
     height: 100vh;
   }
 
+  .\32xl\:h-fullpx {
+    height: 41rem;
+  }
+
   .\32xl\:max-h-0 {
     max-height: 0px;
   }
@@ -163135,6 +163219,10 @@ video {
 
   .\32xl\:min-h-screen {
     min-height: 100vh;
+  }
+
+  .\32xl\:min-h-pxMin {
+    min-height: 41rem;
   }
 
   .\32xl\:w-0 {
@@ -163519,6 +163607,10 @@ video {
 
   .\32xl\:flex-1 {
     flex: 1 1 0%;
+  }
+
+  .\32xl\:flex-100 {
+    flex: 0 0 100%;
   }
 
   .\32xl\:flex-auto {
@@ -174276,6 +174368,10 @@ video {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-hero-pattern {
+    background-image: url('img/hero.png');
   }
 
   .\32xl\:from-transparent {
