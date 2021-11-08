@@ -10,13 +10,41 @@ module.exports = {
         fullpx: '41rem',
       }),
       minHeight: {
-        pxMin: '41rem',
+        '0': '0',
+        '33': '33px',
+        'full': '100%',
+      },
+      minWidth: {
+        '0': '0',
+        '133': '133px',
+        'full': '100%',
       },
       flex: {
         '100': '0 0 100%',
       },
-      color: {
-        custom1: '#4942c9',
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        cstmNavIndigo: {
+          light: '#7c1fe1',
+          DEFAULT: '#1b0632',
+          dark: '#1b0632',
+        },
+        cstmNavGray: {
+          light: '#eeeeee',
+          DEFAULT: '#eeeeee',
+          dark: '#4a4a4a',
+        },
+        cstmLogo: {
+          DEFAULT: '#4942c9',
+        },
+        cstmbtnclr: {
+          DEFAULT: '#4a42cd',
+          badge1: '#044c84',
+          badge2: '#3cccfe',
+          badge3: '#9f64d5',
+          border: '#647b89',
+        },
       }
     },
   },
