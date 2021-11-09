@@ -45,6 +45,10 @@ module.exports = {
           badge3: '#9f64d5',
           border: '#647b89',
         },
+        cstmCol: {
+          bgCol1: '#f4f5f7',
+          textCol2: '#42cd8f',
+        },
       }
     },
   },
