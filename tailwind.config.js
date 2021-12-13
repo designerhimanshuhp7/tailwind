@@ -3,8 +3,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: {
-        'hero-pattern': "url('img/hero.png')",
+      fontSize: {
+        'f-42': '42px',
+        'f-16': '16px',
+
+      },
+      fontFamily: {
+        'nunito': 'Nunito Sans'
       },
       height: (theme) => ({
         fullpx: '41rem',
@@ -48,6 +53,7 @@ module.exports = {
         cstmCol: {
           bgCol1: '#f4f5f7',
           textCol2: '#42cd8f',
+          logocol: '#98c83c'
         },
       }
     },
