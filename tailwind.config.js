@@ -6,10 +6,20 @@ module.exports = {
       fontSize: {
         'f-42': '42px',
         'f-16': '16px',
-
+        'f-74': '74px',
+        'f-28': '28px',
+      },
+      backgroundImage: {
+        'hero-pattern': "url('img/hero.jpg')",
+      },
+      lineHeight: {
+        'extra-loose': '2.5',
+        '68': '68px',
+        '24': '24px',
       },
       fontFamily: {
-        'nunito': 'Nunito Sans'
+        'nunito': 'Nunito Sans',
+        'amiri' : 'Amiri'
       },
       height: (theme) => ({
         fullpx: '41rem',
@@ -52,8 +62,10 @@ module.exports = {
         },
         cstmCol: {
           bgCol1: '#f4f5f7',
+          bgCol2: '#222222',
           textCol2: '#42cd8f',
-          logocol: '#98c83c'
+          logocol: '#98c83c',
+          footbrdr: '#979797'
         },
       }
     },
