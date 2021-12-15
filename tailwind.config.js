@@ -4,13 +4,18 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        'f-42': '42px',
         'f-16': '16px',
-        'f-74': '74px',
         'f-28': '28px',
+        'f-42': '42px',
+        'f-64': '64px',
+        'f-74': '74px',
+        
       },
       backgroundImage: {
         'hero-pattern': "url('img/hero.jpg')",
+        'feature-pattern': "url('img/bitmap.png')",
+        'feature2-pattern': "url('img/bitmap.png')",
+
       },
       lineHeight: {
         'extra-loose': '2.5',
